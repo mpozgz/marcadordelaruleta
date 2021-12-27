@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue;
+  /*font-family: "DotMatrix";
+  */
+  font-family: "technology";
+  font-size: 70%; 
+}
+
+h1 {
+  color: navy;
+  font-size: 5em;
+  text-align: center;
+}
+.jugador {
+  color: navy;
+  font-size: 5em;
+  text-align: center;
+}
+input{
+	width: 99.3%;
+	font-family: "technology";
+	border-style: hidden;
+}
+.total {
+  color: navy;
+  font-size: 3em;
+  text-align: center;
+  background-color: grey;
+}
+.central{
+	background-color: white;
+	width:100%;
+	align-content: center;
+}
+.columna{
+	width: 30%;
+    font-size: 1em;
+    border-style: dashed;
+    display: inline-block;
+    margin: 1%;
+    float: left;
+    max-height: 100%;
+}
+.p1{
+	background-color: green;
+    
+}
+.p2{
+	background-color: blue;
+    
+
+}
+.p3{
+	background-color: red;
+   
+
+}
+.marcador{
+	background-color: black;
+	color: yellow;
+	font-size: 10em;
+	text-align: center;
+}
+
+@font-face {
+  font-family: "technology";
+  src: url('technology.ttf') format('truetype');
+/*
+  font-family: "leddisplay";
+  src: url('the_led_display_st/leddisplay.ttf') format('truetype');
+
+  font-family: "DotMatrix";
+  src: url('dot_matrix/DOTMATRI.ttf') format('truetype');
+  */
+}
