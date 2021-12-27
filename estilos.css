@@ -1,7 +1,5 @@
 body {
   background-color: lightblue;
-  /*font-family: "DotMatrix";
-  */
   font-family: "technology";
   font-size: 70%; 
 }
@@ -65,11 +63,5 @@ input{
 @font-face {
   font-family: "technology";
   src: url('technology.ttf') format('truetype');
-/*
-  font-family: "leddisplay";
-  src: url('the_led_display_st/leddisplay.ttf') format('truetype');
 
-  font-family: "DotMatrix";
-  src: url('dot_matrix/DOTMATRI.ttf') format('truetype');
-  */
 }
